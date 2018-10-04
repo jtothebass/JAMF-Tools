@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>TCC Whitelist for Bomgar</string>
+			<key>PayloadDisplayName</key>
+			<string>bomgar-tccwhitelist</string>
+			<key>PayloadIdentifier</key>
+			<string>com.prf.bomgartccprofile.082A9982-C02D-11E8-B1DB-ACDE48001122</string>
+			<key>PayloadOrganization</key>
+			<string>Proof Advertising LLC</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>082A9982-C02D-11E8-B1DB-ACDE48001122</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.bomgar.bomgar-rep-proofadvertising" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = B65TM49E24</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for Bomgar Representative Console - proofadv.bomgarcloud.com</string>
+						<key>Identifier</key>
+						<string>com.bomgar.bomgar-rep-proofadvertising</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>TCC Whitelist for Bomgar</string>
+	<key>PayloadDisplayName</key>
+	<string>bomgar-tccwhitelist</string>
+	<key>PayloadIdentifier</key>
+	<string>com.prf.bomgartccprofile</string>
+	<key>PayloadOrganization</key>
+	<string>Proof Advertising LLC</string>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>083537D7-C02D-11E8-8C91-ACDE48001122</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

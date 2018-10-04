@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>TCC whitelist for Google File Stream</string>
+			<key>PayloadDisplayName</key>
+			<string>GoogleFS-TCCWhitelist</string>
+			<key>PayloadIdentifier</key>
+			<string>com.prf.googlefstcc.5FF69F66-C01F-11E8-A833-ACDE48001122</string>
+			<key>PayloadOrganization</key>
+			<string>Proof Advertising LLC</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>5FF69F66-C01F-11E8-A833-ACDE48001122</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.google.drivefs" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for Google Drive File Stream</string>
+						<key>Identifier</key>
+						<string>com.google.drivefs</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>TCC whitelist for Google File Stream</string>
+	<key>PayloadDisplayName</key>
+	<string>GoogleFS-TCCWhitelist</string>
+	<key>PayloadIdentifier</key>
+	<string>com.prf.googlefstcc</string>
+	<key>PayloadOrganization</key>
+	<string>Proof Advertising LLC</string>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5FF87B80-C01F-11E8-8635-ACDE48001122</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
