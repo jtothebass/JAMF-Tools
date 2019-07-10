@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Allows full disk access for Backblaze</string>
+			<key>PayloadDisplayName</key>
+			<string>BackblazePPPC</string>
+			<key>PayloadIdentifier</key>
+			<string>978954D8-E0E0-4C57-94AC-3F0B53683B63</string>
+			<key>PayloadOrganization</key>
+			<string>Proof Advertising</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>A7DAA162-F801-4756-9960-2E763B6C7AE5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.backblaze.Backblaze" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = G4K4BQ7S8J)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.backblaze.Backblaze</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Allows full disk access for Backblaze</string>
+	<key>PayloadDisplayName</key>
+	<string>BackblazePPPC</string>
+	<key>PayloadIdentifier</key>
+	<string>978954D8-E0E0-4C57-94AC-3F0B53683B63</string>
+	<key>PayloadOrganization</key>
+	<string>Proof Advertising</string>
+	<key>PayloadType</key>
+	<string>com.apple.TCC.configuration-profile-policy</string>
+	<key>PayloadUUID</key>
+	<string>D5D1DBBB-B992-4B77-B07A-6D4945F26B2F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>payloadScope</key>
+	<string>system</string>
+</dict>
+</plist>
